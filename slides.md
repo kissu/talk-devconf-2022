@@ -217,7 +217,7 @@ image: https://user-images.githubusercontent.com/5133074/171331451-8e66c500-b7d1
 <!-- <p><a href="https://ironvelvet.studio/works">Iron velvet</a></p> -->
 
 <div class="flex justify-center mt-24">
-  <img src="/iron_velvet.gif" alt="Iron's velvet studio website" class="w-auto h-72" />
+  <img src="/velvet.gif" alt="Iron's velvet studio website" class="w-auto h-72" />
 </div>
 
 <!--
@@ -276,7 +276,7 @@ geometries, lights, materials, etc... are available out of the box
 
 let's see how to write the same with ThreeJS
 
-[demo of the simple geometry /02 + proper spinning cube]
+[proper spinning cube]
 
 as you can see, the difference is quite substantial and far more readable (especially if you're used of writting JS)
 
@@ -310,6 +310,8 @@ background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500
 
 <!--
 I already have the links opened in my group tabs
+
+[mirror the screen]
 -->
 
 ---
@@ -349,7 +351,8 @@ background: https://user-images.githubusercontent.com/5133074/171331451-8e66c500
 a renderer receives a scene and a camera to render all of them down the tree
 
 the scene contains lights, geometries, cameras, materials, etc... this hierarchy is containing all
-the children and the info about where they are aiming, where they appear. think of it as a scene in a film.
+the children and the info about where they are aiming, where they appear.
+think of it as a scene in a film.
 
 the mesh helps us know the position and orientation of each cube
 
@@ -390,6 +393,7 @@ basics in Maths: Pi, cosinus/sinus
 some hardware/gaming knowledge is optional but it may be handy to understand how to optimize the code
 and what is happening internally
 
+[screen mirror]
 [let's go back to some code again and inspect the cube + a fancy GALAXY 🌌]
 -->
 
